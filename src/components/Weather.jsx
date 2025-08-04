@@ -41,7 +41,7 @@ const Weather = () => {
       const data = await response.json();
 
       if (data.cod !== 200) {
-        setErrorMsg("City not found 😔");
+        setErrorMsg("City not found");
         setWeatherData(null);
         setLoading(false);
         return;

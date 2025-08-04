@@ -6,9 +6,8 @@ function App() {
   return (
     <div className='webpage'>
       <Weather />
-      hi
     </div>
   )
-}
+};
 
 export default App
