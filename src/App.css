@@ -1,0 +1,14 @@
+*{
+  margin:0px;
+  padding:0px;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box ;
+}
+
+.webpage {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(to right, #D3CCE3,#E9E4F0);
+}
+
